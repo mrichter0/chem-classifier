@@ -1,0 +1,18 @@
+index: 0
+nodes:
+  1 element=P
+  2 element=F
+  3 element=O
+  4 element=O
+  5 element=C
+  6 element=C
+  7 element=C
+  8 element=C
+edges:
+  1 2 order=1
+  1 3 order=1
+  1 4 order=2
+  1 8 order=1
+  3 5 order=1
+  5 6 order=1
+  5 7 order=1

@@ -1,0 +1,133 @@
+﻿[
+    {
+        "value":  [
+                      {
+                          "model#":  "ChatGPT 4.5",
+                          "conv_id":  "6a11e3bc-f578-83ea-a5ab-f2074c27275a",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "206.694s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "ChatGPT 5.2 Thinking",
+                          "conv_id":  "6a11e3c9-e91c-83ea-8e57-00b93f743513",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "134.884s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "ChatGPT 5.3 Instant",
+                          "conv_id":  "6a11e3dc-b760-83ea-9003-bdfea4803ef1",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "54.797s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "ChatGPT o3",
+                          "conv_id":  "6a11e3e7-3e14-83ea-8505-6e7b1f18bcb7",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "44.289s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "ChatGPT 5.4 Thinking",
+                          "conv_id":  "6a11e3f4-4860-83ea-a8d3-f3006d85c25d",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "31.264s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "ChatGPT 5.5 Thinking",
+                          "conv_id":  "6a11e3fe-5e84-83ea-bee0-d07f5cb34b66",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "21.166s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Meta Instant",
+                          "conv_id":  "7d0bc00f-d0c0-4f83-876e-7bb3bc158035",
+                          "final_answer":  "NA",
+                          "recorded_time":  "20s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Meta Thinking",
+                          "conv_id":  "aabfc486-8928-412f-92f2-6d6182c31b18",
+                          "final_answer":  "NA",
+                          "recorded_time":  "120s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Gemini Flash-Lite",
+                          "conv_id":  "b674b2dee21a94e6",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "29.895s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Gemini Flash",
+                          "conv_id":  "45547c1d2866d53b",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9",
+                          "recorded_time":  "57.905s",
+                          "Correct/Incorrect":  "Incorrect"
+                      },
+                      {
+                          "model#":  "Gemini Pro",
+                          "conv_id":  "94904aad4c23ec95",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "61.566s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Gemini Flash-Lite Extended",
+                          "conv_id":  "8afac19d3eaccae1",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "37.111s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Gemini Flash Extended",
+                          "conv_id":  "1260231a55e527e5",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "39.097s",
+                          "Correct/Incorrect":  "Correct"
+                      },
+                      {
+                          "model#":  "Gemini Pro Extended",
+                          "conv_id":  "ffb3fc829a81353c",
+                          "final_answer":  "QUERY_INDEX = 6; MATCH_INDICES = 6,7,8,9,10",
+                          "recorded_time":  "44.394s",
+                          "Correct/Incorrect":  "Correct"
+                      }
+                  ],
+        "Count":  14
+    },
+    {
+        "model#":  "Claude Sonnet 4.6",
+        "conv_id":  "8e59efdc-0908-4af7-88d5-c5879b6da130",
+        "final_answer":  "NA",
+        "recorded_time":  "30s",
+        "Correct/Incorrect":  "Incorrect"
+    },
+    {
+        "model#":  "Claude Sonnet 4.6 Adaptive",
+        "conv_id":  "7d545dd7-4e75-42b5-b73b-e9820fabd090",
+        "final_answer":  "NA",
+        "recorded_time":  "60s",
+        "Correct/Incorrect":  "Correct"
+    },
+    {
+        "model#":  "Claude Haiku 4.5",
+        "conv_id":  "59a59665-ceff-4d48-b287-9ee8b54287fd",
+        "final_answer":  "NA",
+        "recorded_time":  "20s",
+        "Correct/Incorrect":  "Correct"
+    },
+    {
+        "model#":  "Claude Haiku 4.5 Adaptive",
+        "conv_id":  "8f1a0cad-4db1-4dcb-b6a5-67da48660595",
+        "final_answer":  "NA",
+        "recorded_time":  "50s",
+        "Correct/Incorrect":  "Correct"
+    }
+]
