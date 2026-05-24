@@ -1,8 +1,6 @@
 # chem-classifier
 
-**This is not a working model.**
-
-This repository is a **design plan and experiment scaffold**, not a finished chemistry classifier. The current goal is to design a **chemical database / classifier for rapid intent screening** by representing flagged chemicals in structural graph form and testing whether LLMs can reason over those graphs quickly and consistently.
+This repository is a **design plan and experiment scaffold**, not a finished chemistry classifier. The current goal is to design a **chemical database / classifier for rapid intent screening** by representing flagged chemicals in structural graph form.
 
 ## Purpose
 
@@ -11,7 +9,7 @@ The core idea is to support fast chemistry safety checks by scanning user contex
 Why this matters:
 
 - chemical synthesis pathways are complex
-- keyword filtering alone is easy to over-trigger or miss
+- keyword filtering alone often leads to overmoderation
 - a structural representation should allow faster and more precise chemistry checks
 - this may reduce keyword-based overmoderation while still surfacing genuinely risky cases
 
@@ -43,17 +41,6 @@ Important note:
 
 - **Claude results in this repo were collected on a free account to avoid bias in the comparison.**
 - the benchmark is included to justify the approach by showing that the graph-based method can work across **multiple model families**, not just a single provider
-
-## Status
-
-At the moment, this project should be read as:
-
-- a prompt-and-graph design study
-- a proposed structure-based intent-classification approach
-- a benchmark repo
-- a staging area for future classifier work
-
-It should **not** be interpreted as a validated production model, a finished structure-search engine, or a regulatory decision tool.
 
 ## TODO
 
