@@ -2,8 +2,6 @@
 ## Purpose
 Build **chemical classifier for rapid conversation screening** by representing and compiling all scheduled chemicals in structural graph form.
 
-The core idea is to support fast chemistry safety checks by scanning user context against a structure-based red-flag list.
-
 Why this matters:
 
 - chemical synthesis pathways are complex
