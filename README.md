@@ -1,8 +1,10 @@
 # chem-classifier
-
-This repository is a **design plan and experiment scaffold**, not a finished chemistry classifier. The current goal is to design a **chemical database / classifier for rapid intent screening** by representing flagged chemicals in structural graph form.
-
 ## Purpose
+Build **chemical classifier for rapid conversation screening** by representing and compiling all scheduled chemicals in structural graph form.
+
+
+
+
 
 The core idea is to support fast chemistry safety checks by scanning user context against a structure-based red-flag list.
 
