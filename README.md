@@ -2,16 +2,14 @@
 ## Purpose
 Build **chemical classifier for rapid conversation screening** by representing and compiling all scheduled chemicals in structural graph form.
 
-
-
-
-
 The core idea is to support fast chemistry safety checks by scanning user context against a structure-based red-flag list.
 
 Why this matters:
 
 - chemical synthesis pathways are complex
 - keyword filtering alone often leads to overmoderation
+- chemical nomenclature is difficult and inconsistent across IUPAC names, common names, salts, abbreviations, and minor wording variants
+- many model deployments may not have reliable access to external chemistry databases during inference, so the classifier should not depend on live database lookup
 - a structural representation should allow faster and more precise chemistry checks
 - this may reduce keyword-based overmoderation while still surfacing genuinely risky cases
 
@@ -24,14 +22,6 @@ The working design is:
 - prompt an LLM with those graphs
 - compare model speed and correctness on controlled graph-search tasks
 - use the results to decide whether this can become a practical rapid classifier for intent screening
-
-The current repository contains:
-
-- small molecule and SD examples
-- graph-generation scripts
-- VF2 query scripts
-- benchmark outputs
-- an initial benchmark visualization
 
 ## Benchmark Snapshot
 
