@@ -31,7 +31,7 @@ The benchmark below summarizes current timing and correctness results across the
 
 Important note:
 
-- **Claude results in this repo were collected on a free account to avoid bias in the comparison.**
+- **Claude results in this repo were collected on a free account.**
 - the benchmark is included to justify the approach by showing that the graph-based method can work across **multiple model families**, not just a single provider
 
 ## TODO
