@@ -19,7 +19,7 @@ The benchmark below summarizes current timing and correctness results across the
 
 ![Benchmark results](benchmark_results_graph.png)
 
-**Claude results in this repo were collected on a free account and do not indication a model limitation.**
+**Claude results in this repo were collected on a free account and do not indicate a model limitation.**
 
 
 
