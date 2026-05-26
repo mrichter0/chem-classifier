@@ -1,7 +1,9 @@
 # chem-classifier
 **chemical classifier for rapid conversation screening** using structural graph form
 
-Why this matters: Keyword classifiers are workable for biological agents because the lists are short and there are no precursors and derivatives. Acquisition risks generally do not fall under LLM liability as they are controlled via purchasing pipelines - you can't make anthrax from raw materials and natural products. A brief comparison between anthrax and sarin is shown in json below - many high-signal terms still contain anthrax, and the non-anthrax aliases are comparatively few so a keyword screening can do a decent first pass here. But for sarin many valid names do not contain sarin at all: GB, IMPF, MFI, T-144, TL 1618, and multiple systematic names so a keyword-only rule set will often miss. In this small comparison, anthrax and sarin have roughly the same number of aliases, but sarin carries nearly three times as many identifiers, which is exactly why chemical screening breaks down faster under keyword-only rules.
+For biological agents, keyword classifiers are workable because the lists are short and there are no precursors or derivatives. Acquisition risks generally do not fall under LLM liability as they are controlled via purchasing pipelines - you can't make anthrax from raw materials or natural products. 
+
+This is not true for illicit chemicals: acquisition risks are the primary concern, and precursors and derivatives must be monitored. A brief comparison between anthrax and sarin is shown in json below - many high-signal terms still contain anthrax, and the non-anthrax aliases are comparatively few so a keyword screening can do a decent first pass here. But for sarin many valid names do not contain sarin at all: GB, IMPF, MFI, T-144, TL 1618, and multiple systematic names so a keyword-only rule set will often miss. In this small comparison, anthrax and sarin have roughly the same number of aliases, but sarin carries nearly three times as many identifiers, which is exactly why chemical screening breaks down faster under keyword-only rules.
 
 
 - chemical synthesis pathways are complex
