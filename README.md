@@ -19,17 +19,7 @@ The benchmark below summarizes current timing and correctness results across the
 
 ![Benchmark results](benchmark_results_graph.png)
 
-Important note:
-
-- **Claude results in this repo were collected on a free account.**
-- the benchmark is included to justify the approach by showing that the graph-based method can work across **multiple model families**, not just a single provider
-
-## TODO
-
-- Full list for OPCW
-- Controlled substances
-- ATF
-- Precursors
+**Claude results in this repo were collected on a free account and do not indication a model limitation.**
 
 
 
