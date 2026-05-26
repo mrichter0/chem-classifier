@@ -32,7 +32,7 @@ Important note:
 
 [`nomenclature_examples.json`](nomenclature_examples.json)
 
-<details>
+<details open>
 <summary>compact preview</summary>
 
 ```json
