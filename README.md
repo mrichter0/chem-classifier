@@ -12,7 +12,7 @@ Why this matters:
 
 ## Sarin Sample Set
 
-The benchmark below summarizes current timing and correctness results across the tested models using the structure of Sarin and it's derivatives. 
+The benchmark below summarizes current timing and correctness results across the tested models using the structure of Sarin and it's derivatives. Across model families, the graph-based Sarin test usually resolved in about 30 seconds for straightforward completions, which matters because it suggests structure screening may be fast enough for practical real-time chemistry checks.
 
 ![Benchmark results](benchmark_results_graph.png)
 
