@@ -10,9 +10,9 @@ Why this matters:
 - a structural representation should allow faster and more precise chemistry checks
 - this may reduce keyword-based overmoderation while still surfacing genuinely risky cases
 
-## Sarin Sample
+## Sarin Sample Set
 
-The benchmark below summarizes current timing and correctness results across the tested models:
+The benchmark below summarizes current timing and correctness results across the tested models using the structure of Sarin and it's derivatives. 
 
 ![Benchmark results](benchmark_results_graph.png)
 
