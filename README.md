@@ -1,6 +1,5 @@
 # chem-classifier
-## Purpose
-Build **chemical classifier for rapid conversation screening** by representing and compiling all scheduled chemicals in structural graph form.
+Purpose - Build **chemical classifier for rapid conversation screening** by representing and compiling all scheduled chemicals in structural graph form.
 
 Why this matters:
 
