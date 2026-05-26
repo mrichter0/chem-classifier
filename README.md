@@ -10,17 +10,7 @@ Why this matters:
 - a structural representation should allow faster and more precise chemistry checks
 - this may reduce keyword-based overmoderation while still surfacing genuinely risky cases
 
-## Current Idea
-
-The working design is:
-
-- build a red-flag chemistry list in structural form
-- convert `.mol` and `.sd` chemistry files into simplified graph text
-- prompt an LLM with those graphs
-- compare model speed and correctness on controlled graph-search tasks
-- use the results to decide whether this can become a practical rapid classifier for intent screening
-
-## Benchmark Snapshot
+## Sarin Sample
 
 The benchmark below summarizes current timing and correctness results across the tested models:
 
